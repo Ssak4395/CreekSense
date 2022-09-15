@@ -21,6 +21,7 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         ImageView view_map_button = findViewById(R.id.view_map_button);
         ImageView view_sensors_button = findViewById(R.id.view_sensors_button);
+
         hideSystemBars();
         Intent intent = new Intent(this, Map.class);
 
